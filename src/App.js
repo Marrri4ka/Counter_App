@@ -13,6 +13,16 @@ class App extends Component {
     ]
   };
 
+  constructor(){
+    super();
+  
+  }
+
+  componentDidMount(){
+  
+  }
+
+
   handleIncrement = counter => {
     console.log("Increment", counter);
     const counters = [...this.state.counters];
